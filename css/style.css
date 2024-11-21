@@ -14,6 +14,7 @@ body {
   transform-style: preserve-3d;
   transform: perspective(2500px);
   transition: 1s;
+  margin-bottom: 200px;
 }
 
 .birthdayCard:hover {
@@ -34,7 +35,7 @@ body {
   position: relative;
   background-color: #fff;
   width: 320px;
-  height: 510px;
+  height: 620px;
   overflow: hidden;
   transform-origin: left;
   box-shadow: inset 100px 20px 100px rgba(0, 0, 0, 0.2),
@@ -133,7 +134,7 @@ body {
   position: absolute;
   background-color: #fff;
   width: 320px;
-  height: 510px;
+  /* height: 510px; */
   z-index: -1;
   left: 0;
   top: 0;
